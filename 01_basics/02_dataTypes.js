@@ -21,7 +21,7 @@ let state; // example of undefined datatype
 // null => standalone value
 // undefined => value is not assigned
 // symbol => unique (mostly use when we are learning react)
-
+// Nan => number
 
 
 // Objects
@@ -34,6 +34,7 @@ console.log(typeof age);   // number
 console.log(typeof isLogggedIn); // boolean
 console.log(typeof null);  // object
 console.log(typeof undefined); // undefined
+console.log(typeof NaN); // number
 
 
 // Imp Note: Read about Datatypes from documentation(MDN)
