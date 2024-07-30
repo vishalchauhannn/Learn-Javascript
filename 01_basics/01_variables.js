@@ -28,3 +28,5 @@ accountCity = "Delhi"    // change value
 console.log(accountId);
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]) // use to print data in table form
+
+// Imp Note: Read about variables from documentation (MDN)
