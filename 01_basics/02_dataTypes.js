@@ -34,7 +34,7 @@ console.log(typeof age);   // number
 console.log(typeof isLogggedIn); // boolean
 console.log(typeof null);  // object
 console.log(typeof undefined); // undefined
-console.log(typeof NaN); // number
+console.log(typeof NaN); // number 
 
 
 // Imp Note: Read about Datatypes from documentation(MDN)
