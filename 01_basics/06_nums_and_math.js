@@ -30,4 +30,19 @@ console.log(Math);
 // console.log(Math.min(2, 5, 8, 4));  // 2 // to find the minimum value
 // console.log(Math.max(2, 3, 5, 9));  // 9 // to find the maximum value 
 
-console.log(Math.random()); // used to generate a random value
+// console.log(Math.random()); // used to generate a random value between 0 to 1
+// console.log((Math.random()*10) + 1)
+
+
+const min = 10;
+const max = 20;
+
+// console.log(Math.floor(Math.random() * (max - min + 1) + min));  // Important Formula to create random value b/w any numbers
+
+
+// --------------------------- Dice Game Logic -----------------------------------
+
+const minVal = 1;
+const maxVal = 6;
+
+console.log(Math.floor(Math.random() * (maxVal - minVal + 1) + minVal))
