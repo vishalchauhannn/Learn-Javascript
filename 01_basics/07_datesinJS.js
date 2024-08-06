@@ -1,8 +1,12 @@
 //----------------------- DATE ---------------------
+// Date : Date is an object in javascript. 
+// JavaScript stores dates as number of milliseconds since January 01, 1970
 
 let myDate = new Date();
 // console.log(myDate) // 2024-08-05T09:47:24.430Z
 // console.log(typeof(myDate))
+
+// We can use various methods to convert this date into more readable value.
 
 // console.log(myDate.toString())  // Mon Aug 05 2024 15:17:24 GMT+0530 (India Standard Time)
 // console.log(myDate.toDateString()) // Mon Aug 05 2024
