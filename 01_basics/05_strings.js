@@ -21,7 +21,7 @@ const newString = gameName.substring(0,3); // to create a substring from a given
 // console.log(newString);
 
 const anotherString = gameName.slice(-5, 2);
-// console.log(anotherString);
+console.log(anotherString);
 
 
 const newStringOne = "    Vishal      "
